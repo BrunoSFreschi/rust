@@ -41,6 +41,19 @@ cargo build
 cargo check
 ```
 
+### Ideia: criar um `.gitignore`
+
+Quando criar um projeto Rust, adicione um arquivo `.gitignore` para não versionar arquivos gerados pela compilação.
+
+Exemplo básico:
+
+```gitignore
+/target
+Cargo.lock
+```
+
+Observação: em aplicações finais, normalmente você versiona o `Cargo.lock`. Em bibliotecas, é comum deixar o `Cargo.lock` fora do Git.
+
 ### Prática
 
 Crie um projeto `hello_rust` que imprime seu nome, idade e uma frase usando variáveis.
