@@ -1,0 +1,18 @@
+# Rust build output
+target/
+
+# Local environment files
+.env
+.env.*
+
+# Editor, agent, and OS files
+.vscode/
+.idea/
+.agents/
+.codex/
+*.swp
+*.swo
+.DS_Store
+
+# Local logs
+*.log
